@@ -85,7 +85,7 @@ class MainView:
             )
             # 根据输入运行不同的函数
             if select_options == options[0]:
-                parse_video()
+                await parse_video()
             elif select_options == options[1]:
                 put_markdown(self.utils.t('暂未开放，敬请期待~', 'Not yet open, please look forward to it~'))
             elif select_options == options[2]:
