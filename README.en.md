@@ -42,7 +42,7 @@ These sponsors have paid to place them here,**Doinan_tics_download_api**The proj
 
 > 🚨If you want to use a private server to run this project, please refer to:[Deployment preparations](./README.md#%EF%B8%8F%E9%83%A8%E7%BD%B2%E5%89%8D%E7%9A%84%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C%E8%AF%B7%E4%BB%94%E7%BB%86%E9%98%85%E8%AF%BB),[Docker deployment](./README.md#%E9%83%A8%E7%BD%B2%E6%96%B9%E5%BC%8F%E4%BA%8C-docker),[One-click deployment](./README.md#%E9%83%A8%E7%BD%B2%E6%96%B9%E5%BC%8F%E4%B8%80-linux)
 
-This project is based on[Pydebio](https://github.com/pywebio/PyWebIO)，[Fasting](https://fastapi.tiangolo.com/)，[HTTPX](https://www.python-httpx.org/), fast asynchronous[Tik Tok](https://www.douyin.com/)/[Tiktok](https://www.tiktok.com/)Data crawling tool, and online batch analysis and downloading of watermark-free videos or picture albums through the web, data crawling API, iOS shortcuts without watermark download and other functions. You can deploy or transform this project yourself to achieve more functions, or you can call it directly in your project[scraper.py](https://github.com/Evil0ctal/Douyin_TikTok_Download_API/blob/Stable/scraper.py)Or install an existing one[pip包](https://pypi.org/project/douyin-tiktok-scraper/)As a parsing library, easy to crawl data, etc....
+This project is based on[Pydebio](https://github.com/pywebio/PyWebIO)，[Fasting](https://fastapi.tiangolo.com/)，[HTTPX](https://www.python-httpx.org/), fast asynchronous[Tik Tok](https://www.douyin.com/)/[Tiktok](https://www.tiktok.com/)Data crawling tool, and online batch analysis and downloading of watermark-free videos or picture albums through the web, data crawling API, iOS shortcuts without watermark download and other functions. You can deploy or transform this project yourself to achieve more functions, or you can call it directly in your project[scraper.py](https://github.com/Evil0ctal/Douyin_TikTok_Download_API/blob/Stable/scraper.py)Or install an existing one[pip package](https://pypi.org/project/douyin-tiktok-scraper/)As a parsing library, easy to crawl data, etc....
 
 _Some simple application scenarios:_
 
@@ -161,7 +161,7 @@ Some of the source code of TikHub will be open sourced on Github and will sponso
         -   [x] Get user homepage information
         -   [x] Obtain user compiled works data
         -   [x] Obtain user live streaming data
-        -   [x] Get live streaming data for the specified user
+        -   [x] 获取指定用户的直播流数据
         -   [x] Get the ranking of gift-giving users in the live broadcast room
         -   [x] Get individual video comment data
         -   [x] Get comments and response data for specified videos
@@ -184,7 +184,7 @@ Some of the source code of TikHub will be open sourced on Github and will sponso
         -   [x] Get user homepage information
         -   [x] Get the user's homepage fan data
         -   [x] Get user's homepage follow data
-        -   [x] Obtain data on the collection of works by users on the homepage
+        -   [x] Obtain data on the compiled works of the user's homepage
         -   [x] Get search data for users' homepage
         -   [x] Get user homepage playlist data
         -   [x] Get individual video comment data
@@ -202,11 +202,11 @@ Some of the source code of TikHub will be open sourced on Github and will sponso
         -   [x] Get individual video details
         -   [x] Get the video streaming address
         -   [x] Obtain data on video works published by users
-        -   [x] 获取用户所有收藏夹信息
+        -   [x] Get all user favorites information
         -   [x] Get video data in the specified favorites
         -   [x] Get information about the specified user
         -   [x] Get comprehensive popular video information
-        -   [x] 获取指定视频的评论
+        -   [x] Get comments for the specified video
         -   [x] Get a reply to the specified comment under the video
         -   [x] Get the specified user dynamics
         -   [x] Get real-time video barrage
@@ -218,7 +218,7 @@ Some of the source code of TikHub will be open sourced on Github and will sponso
 
 * * *
 
-## 📦 Call the parsing library (deprecated and needs to be updated):
+## 📦Call the parsing library (deprecated and needs to be updated):
 
 > 💡PIPI ：<https://pypi.org/project/douyin-tiktok-scraper/>
 
@@ -323,7 +323,7 @@ Online:<https://api.douyin.wtf/docs>
 
 Recommended to use[DigitalOcean](https://www.digitalocean.com/)server, because it can be free.
 
-使用我的邀请链接注册，你可以获得$200的credit，当你在上面消费$25时，我也可以获得$25的奖励。
+Sign up with my invitation link and you can get a credit of $200, and I can get a reward of $25 when you spend $25 on it.
 
 My invitation link:
 
@@ -414,7 +414,7 @@ docker run -d --name douyin_tiktok_api -p 80:80 \
   evil0ctal/douyin_tiktok_download_api
 ```
 
--   `-v /path/to/your/data:/data`: Turn on the host`/path/to/your/data`The directory mounted to the container`/data`Directory, used to persist or share data.
+-   `-v /path/to/your/data:/data`: Turn on the host`/path/to/your/data`The directory mounted to the container`/data`目录，用于持久化或共享数据。
 -   `-e MY_ENV_VAR=my_value`: Set environment variables in the container`MY_ENV_VAR`, its value is`my_value`。
 
 ### Configuration file modification
