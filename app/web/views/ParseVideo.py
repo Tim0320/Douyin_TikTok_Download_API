@@ -111,7 +111,7 @@ def parse_video():
         url_index = url_lists.index(url) + 1
         # 解析
         try:
-            data = asyncio.run(HybridCrawler.hybrid_parsing_single_video(url, minimal=True))
+            data = await HybridCrawler.hybrid_parsing_single_video(url, minimal=True)
         except Exception as e:
             error_msg = str(e)
             with use_scope(str(url_index)):
