@@ -38,7 +38,7 @@ API:
   Download_Switch: true    # Enable download function | 启用下载功能
 
   # File Configuration
-  Download_Path: "./download"    # Default download directory | 默认下载目录
+  Download_Path: "/tmp/download"    # Default download directory | 默认下载目录
   Download_File_Prefix: "douyin.wtf_"    # Default download file prefix | 默认下载文件前缀
 
 
