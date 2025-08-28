@@ -6,7 +6,7 @@ from pywebio import start_server
 from pywebio.output import put_text, clear, put_html
 
 
-def a():
+async def a():
     H, W = 60, 80
     g = np.random.choice([0, 1], size=(H, W))
 
