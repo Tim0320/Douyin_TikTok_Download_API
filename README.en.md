@@ -42,7 +42,7 @@ These sponsors have paid to place them here,**Doinan_tics_download_api**The proj
 
 > 🚨If you want to use a private server to run this project, please refer to:[Deployment preparations](./README.md#%EF%B8%8F%E9%83%A8%E7%BD%B2%E5%89%8D%E7%9A%84%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C%E8%AF%B7%E4%BB%94%E7%BB%86%E9%98%85%E8%AF%BB),[Docker deployment](./README.md#%E9%83%A8%E7%BD%B2%E6%96%B9%E5%BC%8F%E4%BA%8C-docker),[One-click deployment](./README.md#%E9%83%A8%E7%BD%B2%E6%96%B9%E5%BC%8F%E4%B8%80-linux)
 
-This project is based on[Pydebio](https://github.com/pywebio/PyWebIO)，[Fasting](https://fastapi.tiangolo.com/)，[HTTPX](https://www.python-httpx.org/), fast asynchronous[Tik Tok](https://www.douyin.com/)/[Tiktok](https://www.tiktok.com/)Data crawling tool, and online batch analysis and downloading of watermark-free videos or picture albums through the web, data crawling API, iOS shortcuts without watermark download and other functions. You can deploy or transform this project yourself to achieve more functions, or you can call it directly in your project[scraper.py](https://github.com/Evil0ctal/Douyin_TikTok_Download_API/blob/Stable/scraper.py)Or install an existing one[pip package](https://pypi.org/project/douyin-tiktok-scraper/)As a parsing library, easy to crawl data, etc....
+This project is based on[Pydebio](https://github.com/pywebio/PyWebIO)，[FastAPI](https://fastapi.tiangolo.com/)，[HTTPX](https://www.python-httpx.org/), fast asynchronous[Tik Tok](https://www.douyin.com/)/[Tiktok](https://www.tiktok.com/)Data crawling tool, and online batch analysis and downloading of watermark-free videos or picture albums through the web, data crawling API, iOS shortcuts without watermark download and other functions. You can deploy or transform this project yourself to achieve more functions, or you can call it directly in your project[scraper.py](https://github.com/Evil0ctal/Douyin_TikTok_Download_API/blob/Stable/scraper.py)Or install an existing one[pip package](https://pypi.org/project/douyin-tiktok-scraper/)As a parsing library, easy to crawl data, etc....
 
 _Some simple application scenarios:_
 
@@ -64,11 +64,11 @@ _Download videos that are prohibited from being downloaded, perform data analysi
 
 > 📦 Out of the box
 
-Simplify the usage process and quickly carry out development work using the encapsulated SDK. All API interfaces are designed according to the RESTful architecture and are described and documented using the OpenAPI specification, with example parameters to ensure that calls are easier.
+Simplify the usage process and quickly carry out development work using the encapsulated SDK. All API interfaces are designed according to the RESTful architecture and are described and documented using the OpenAPI specification, accompanied by example parameters to ensure that calls are easier.
 
 > 💰 Cost Advantage
 
-There is no preset package limit, no monthly usage threshold, all consumption is billed instantly based on the actual usage, and is charged step by step based on the user's daily request volume. At the same time, you can check in in the user's background through daily check-in, and these free amounts will not expire.
+There is no preset package limit, no monthly usage threshold, all consumption is billed instantly based on the actual usage, and is billed step by step based on the user's daily request volume. At the same time, you can check in in the user's background through daily check-in, and these free amounts will not expire.
 
 > ⚡️ Quick support
 
@@ -160,7 +160,7 @@ Some of the source code of TikHub will be open sourced on Github and will sponso
         -   [x] Obtain data on the user's homepage collection of works
         -   [x] Get user homepage information
         -   [x] Obtain user compiled works data
-        -   [x] Obtain user live streaming data
+        -   [x] 获取用户直播流数据
         -   [x] Get live streaming data for the specified user
         -   [x] Get the ranking of gift-giving users in the live broadcast room
         -   [x] Get individual video comment data
@@ -176,7 +176,7 @@ Some of the source code of TikHub will be open sourced on Github and will sponso
         -   [x] Extract list work id
         -   [x] Extract list live broadcast room number
         -   [x] Extract list live broadcast room number
-    -   TikTok web version API
+    -   TikTok网页版API
 
         -   [x] Video data analysis
         -   [x] Obtain user's homepage work data
@@ -184,7 +184,7 @@ Some of the source code of TikHub will be open sourced on Github and will sponso
         -   [x] Get user homepage information
         -   [x] Get the user's homepage fan data
         -   [x] Get user's homepage follow data
-        -   [x] Obtain data on the compiled works of the user's homepage
+        -   [x] Obtain data on the collection of works by users on the homepage
         -   [x] Get search data for users' homepage
         -   [x] Get user homepage playlist data
         -   [x] Get individual video comment data
@@ -195,13 +195,13 @@ Some of the source code of TikHub will be open sourced on Github and will sponso
         -   [x] Extract individual user sec_user_id
         -   [x] Extract list user sec_user_id
         -   [x] Extract individual works id
-        -   [x] Extract list work id
+        -   [x] 提取列表作品id
         -   [x] Get user unique_id
         -   [x] Get the list unique_id
     -   Bilibili web version API
         -   [x] Get individual video details
         -   [x] Get the video streaming address
-        -   [x] Obtain data on video works published by users
+        -   [x] 获取用户发布视频作品数据
         -   [x] Get all user favorites information
         -   [x] Get video data in the specified favorites
         -   [x] Get information about the specified user
@@ -209,7 +209,7 @@ Some of the source code of TikHub will be open sourced on Github and will sponso
         -   [x] Get comments for the specified video
         -   [x] Get a reply to the specified comment under the video
         -   [x] Get the specified user dynamics
-        -   [x] Get real-time video barrage
+        -   [x] 获取视频实时弹幕
         -   [x] Get information about the specified live broadcast room
         -   [x] Get live video streaming
         -   [x] Get the anchor who is currently broadcasting in the specified partition
@@ -218,7 +218,7 @@ Some of the source code of TikHub will be open sourced on Github and will sponso
 
 * * *
 
-## 📦Call the parsing library (deprecated and needs to be updated):
+## 📦 Call the parsing library (deprecated and needs to be updated):
 
 > 💡PIPI ：<https://pypi.org/project/douyin-tiktok-scraper/>
 
@@ -273,7 +273,7 @@ https://www.douyin.com/discover?modal_id=7069543727328398622
 https://www.tiktok.com/t/ZTR9nDNWq/
 ```
 
--   TikTok normal website address (web version copy)
+-   TikTok正常网址 (网页版复制)
 
 ```text
 https://www.tiktok.com/@evil0ctal/video/7156033831819037994
@@ -313,7 +313,7 @@ Online:<https://api.douyin.wtf/docs>
     -   TikTok web cookies (acquire and replace cookies in the following configuration files):
     -   <https://github.com/Evil0ctal/Douyin_TikTok_Download_API/blob/30e56e5a7f97f87d60b1045befb1f6db147f8590/crawlers/tiktok/web/config.yaml#L6>
 -   I turned off the online download function of the demonstration site. Someone downloaded a huge video and it crashed directly on my server. You can right-click to save the video on the web parsing result page...
--   The cookies on the demo site are my own and are not guaranteed to be valid for a long time. They only serve as a demonstration. If you deploy it yourself, please get the cookies yourself.
+-   演示站点的Cookie是我自己的，不保证长期有效，只起到演示作用，自己部署的话请自行获取Cookie。
 -   HTTP 403 error occurs if you need to access the video link returned by TikTok Web API. Please use the API in this project`/api/download`The interface downloads TikTok videos. This interface has been manually closed in the demonstration site, and you need to deploy this project yourself.
 -   There is one here**Video tutorial**You can refer to:**_<https://www.bilibili.com/video/BV1vE421j7NR/>_**
 
@@ -321,7 +321,7 @@ Online:<https://api.douyin.wtf/docs>
 
 > 💡Tip: It is best to deploy this project to a server in the United States, otherwise strange bugs may occur.
 
-Recommended to use[DigitalOcean](https://www.digitalocean.com/)server, because it can be free.
+推荐大家使用[DigitalOcean](https://www.digitalocean.com/)server, because it can be free.
 
 Sign up with my invitation link and you can get a credit of $200, and I can get a reward of $25 when you spend $25 on it.
 
@@ -344,7 +344,7 @@ My invitation link:
     -   `sudo systemctl start Douyin_TikTok_Download_API.service`
     -   `sudo systemctl stop Douyin_TikTok_Download_API.service`
 
-> Turn on/off automatically
+> 开启/关闭开机自动运行
 
 -   Use the following command to set the service to automatically run on or cancel the automatic run on:
     -   `sudo systemctl enable Douyin_TikTok_Download_API.service`
@@ -445,7 +445,8 @@ docker rm douyin_tiktok_api
 
 TikTok official API:![](https://github.com/Evil0ctal/Douyin_TikTok_Download_API/blob/main/Screenshots/benchmarks/Douyin_API.png?raw=true)
 
-This project API:![](https://github.com/Evil0ctal/Douyin_TikTok_Download_API/blob/main/Screenshots/benchmarks/Douyin_API_Douyin_wtf.png?raw=true)
+本项目API:
+![](https://github.com/Evil0ctal/Douyin_TikTok_Download_API/blob/main/Screenshots/benchmarks/Douyin_API_Douyin_wtf.png?raw=true)
 
 TikTok official API:![](https://github.com/Evil0ctal/Douyin_TikTok_Download_API/blob/main/Screenshots/benchmarks/TikTok_API.png?raw=true)
 
