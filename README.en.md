@@ -66,9 +66,9 @@ _Download videos that are prohibited from being downloaded, perform data analysi
 
 Simplify the usage process and quickly carry out development work using the encapsulated SDK. All API interfaces are designed according to the RESTful architecture and are described and documented using the OpenAPI specification, accompanied by example parameters to ensure that calls are easier.
 
-> 💰 成本优势
+> 💰 Cost Advantage
 
-There is no preset package limit, no monthly usage threshold, all consumption is billed instantly based on the actual usage, and is billed step by step based on the user's daily request volume. At the same time, you can check in in the user's background through daily check-in, and these free amounts will not expire.
+There is no preset package limit, no monthly usage threshold, all consumption is billed instantly based on the actual usage, and is charged step by step based on the user's daily request volume. At the same time, you can check in in the user's background through daily check-in, and these free amounts will not expire.
 
 > ⚡️ Quick support
 
