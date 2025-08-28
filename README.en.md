@@ -64,7 +64,7 @@ _Download videos that are prohibited from being downloaded, perform data analysi
 
 > 📦 Out of the box
 
-Simplify the usage process and quickly carry out development work using the encapsulated SDK. All API interfaces are designed according to the RESTful architecture and are described and documented using the OpenAPI specification, accompanied by example parameters to ensure that calls are easier.
+Simplify the usage process and quickly carry out development work using the encapsulated SDK. All API interfaces are designed according to the RESTful architecture and are described and documented using the OpenAPI specification, with example parameters to ensure that calls are easier.
 
 > 💰 Cost Advantage
 
@@ -161,7 +161,7 @@ Some of the source code of TikHub will be open sourced on Github and will sponso
         -   [x] Get user homepage information
         -   [x] Obtain user compiled works data
         -   [x] Obtain user live streaming data
-        -   [x] 获取指定用户的直播流数据
+        -   [x] Get live streaming data for the specified user
         -   [x] Get the ranking of gift-giving users in the live broadcast room
         -   [x] Get individual video comment data
         -   [x] Get comments and response data for specified videos
@@ -414,7 +414,7 @@ docker run -d --name douyin_tiktok_api -p 80:80 \
   evil0ctal/douyin_tiktok_download_api
 ```
 
--   `-v /path/to/your/data:/data`: Turn on the host`/path/to/your/data`The directory mounted to the container`/data`目录，用于持久化或共享数据。
+-   `-v /path/to/your/data:/data`: Turn on the host`/path/to/your/data`The directory mounted to the container`/data`Directory, used to persist or share data.
 -   `-e MY_ENV_VAR=my_value`: Set environment variables in the container`MY_ENV_VAR`, its value is`my_value`。
 
 ### Configuration file modification
