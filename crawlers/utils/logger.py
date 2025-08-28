@@ -151,7 +151,7 @@ def log_setup(log_to_console=True):
         return logger
 
     # 创建临时的日志目录
-    temp_log_dir = Path("./logs")
+    temp_log_dir = Path("/tmp/logs")
     temp_log_dir.mkdir(exist_ok=True)
 
     # 初始化日志管理器
