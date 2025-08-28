@@ -140,7 +140,10 @@ app.include_router(api_router, prefix="/api")
 
 # PyWebIO APP
 if config['Web']['PyWebIO_Enable']:
-    webapp = asgi_app(lambda: MainView().main_view())
+    #webapp = asgi_app(lambda: MainView().main_view())
+    #app.mount("/", webapp)
+    # 將 main_view 作為異步函數傳遞
+    webapp = asgi_app(MainView().main_view)
     app.mount("/", webapp)
 
 if __name__ == '__main__':
